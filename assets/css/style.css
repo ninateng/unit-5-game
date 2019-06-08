@@ -1,0 +1,77 @@
+
+body {
+
+    background: black;
+
+}
+
+.container {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background: black;
+    border: 3px solid red;
+    box-shadow: 0 0 20px 20px red;
+    padding: 240px;
+
+}
+
+#title {
+
+    color: red;
+    margin-left: -245px;
+    float: left;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    text-decoration:  black line-through;
+    /* text-shadow: 4px 4px 8px red; */
+
+
+}
+
+#time {
+
+    text-align: center;
+    font-family: monospace;
+    color: red;
+    text-shadow: 2px 1.5px 3px red;
+    font-weight: lighter;
+    width: 100%;   
+    margin-right: 25%;
+    margin-left: -95%; 
+    margin-top: -45%;
+    font-size: 15px;
+
+}
+
+#question {
+
+    font-family: monospace;
+    color: red;
+    text-decoration: red underline;
+    text-shadow: 2px 2px 5px red;
+    font-weight: normal;
+    width: 100%;   
+    margin-right: 10%;
+    margin-left: -80%; 
+    font-size: 30px;
+
+}
+
+#choices {
+
+    font-family: monospace;
+    color: red;
+    font-weight: lighter
+    width: 100%;   
+    margin-right: 10%;
+    margin-left: -40%; 
+    font-size: 25px;
+
+}
