@@ -47,8 +47,27 @@ var QA = {
    number--;
 
    //  Show the number in the time div
-   $("#display-time").html( number );
+    $("#time").html("<p>" + number + "</p>");
 
+    //forloop for picking index in array..
+    for (var i =0; i < QA.length< i++) {
+
+        //displaying questions and answers
+        $('#question').append( QA[i] );
+        $('#choices').append( QA[i].val() );
+
+        //  Once number hits zero...
+        if (number === 0) {
+
+        //  ...run the stop function.
+        stop();
+
+        //  Alert the user that time is up
+        alert("Time Up!");
+        gotEm.play();
+
+  }
+    }
 
    //  Once number hits zero...
    if (number === 0) {
