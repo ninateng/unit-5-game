@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- styling for page.. -->
+<style>
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.bg-image {
+    /* link background img1 */
+    background-image : url("https://comps.canstockphoto.com/glitch-universe-background-old-tv-picture_csp58774111.jpg");
+    
+    /* blur background img */
+    /* filter: blur(8px);
+   -webkit-filter: blur(8px); */
+
+    /* Full height */
+     height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text  {
+    
+    background-color: black(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: red;
+    font-weight: bold;
+    border: 1px  red;
+    box-shadow: 0 0 70px 30px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+</style>
+
+</head>
+<body>
+
+<!-- div for image -->
+<div class="bg-image" id="face-background"></div>
+
+<div class="bg-text" id="face-text">
+  <!-- face page text.. linking game page.. -->
+  <a href="index.html" style="color:red; font-size: 80px; font-family: monospace; font-weight: lighter "> PLAY</a>
+</div>
+
+</body>
+</html>
